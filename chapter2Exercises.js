@@ -1,5 +1,7 @@
 // Eloquent Javascript Chapter 2 Solutions
 
+
+// Looping a Triangle
 function loopingATriangle (number) {
     let accum = '';
     for (let i = 0; i < number; i++) {
@@ -9,6 +11,8 @@ function loopingATriangle (number) {
 }
 // loopingATriangle(7);
 
+
+// FizzBuzz
 function fizzBuzz (number) {
     for (let i = 1; i <= number; i++) {
         if (i % 15 === 0) {
@@ -27,6 +31,8 @@ function fizzBuzz (number) {
 }
 // fizzBuzz(100);
 
+
+// Chessboard
 function chessboard (number) {
     let redRow = '';
     let blackRow = '';

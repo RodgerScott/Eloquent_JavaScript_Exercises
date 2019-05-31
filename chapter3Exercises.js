@@ -1,3 +1,6 @@
+// Eloquent Javascript Chapter 3 Solutions
+
+// Minimum
 function minimumNumber (a, b) {
     return (a > b ? b : a);
 }
@@ -5,6 +8,7 @@ function minimumNumber (a, b) {
 // console.log(minimumNumber(6, 5));
 
 
+// Recursion
 function isEven (n) {
     let abs = Math.abs(n);
     let val;
@@ -24,6 +28,8 @@ function isEven (n) {
 
 // isEven(-50);
 
+
+// Bean Counting
 function countBs (word, letter) {
     let charArray = word.split("");
     let letterCount = 0;
